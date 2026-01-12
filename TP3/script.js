@@ -169,7 +169,7 @@ for (let i = 0; i < eleves.length; i++) {
 
 // Partie 6
 
-console.log("\nPARTIE 6");
+console.log("\nPARTIE 60");
 console.log("Tableaux affichés ci-dessus");
 console.log("Comparaisons:", comp);
 console.log("Échanges:", ech);
