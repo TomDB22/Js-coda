@@ -1,0 +1,238 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.3.0">
+  <diagram name="Page-1" id="9YCmzRHjCPYbl0KrNF54">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=90;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;Règles&lt;/font&gt;" vertex="1">
+          <mxGeometry height="810" width="1530" x="-10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-11" parent="HrtrLWQSq9afPAZWvEDM-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;ul style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot; id=&quot;docs-internal-guid-65feb8d9-7fff-53b5-b710-624016a5c990&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;2&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Battle Royale&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;2&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Carte à taille fixe&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;2&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Tous les joueurs apparaîssent à des coordonnées aléatoires avec :&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;ul style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Un pseudonyme&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Un skin d’animation sous forme de spritesheet LPC&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Des dégâts d’attaque (HP enlevés par attaque)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Un cooldown entre les attaques&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Une vitesse de déplacement&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Un nombre de points de vie maximum&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Un taux de régénération (en HP/s)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot; id=&quot;docs-internal-guid-65feb8d9-7fff-53b5-b710-624016a5c990&quot;&gt;&lt;ul style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;2&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Toutes les stats du joueur s’améliorent de niveau en niveau&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: circle; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;2&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Quand un joueur fait un kill :&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;ul style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Si le joueur tué est du même niveau ou d’un niveau inférieur : lvl += 1&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;list-style-type: square; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre; margin-left: 36pt;&quot; aria-level=&quot;3&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; role=&quot;presentation&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Si le joueur tué est d’un niveau supérieur, on prend son niveau.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="710" width="1150" x="195" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Features&lt;/font&gt;" vertex="1">
+          <mxGeometry height="1360" width="880" x="1580" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-20" parent="HrtrLWQSq9afPAZWvEDM-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Victoire&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Portée&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Chance d&#39;esquive&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Le classement en temps réel&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Bouclier&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Shrinkable zone&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Son / musique&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="280" x="590" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-21" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Les déplacements&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="350" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-22" parent="HrtrLWQSq9afPAZWvEDM-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Détecter les events clavier&lt;/font&gt;&amp;nbsp;(front)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-23" parent="HrtrLWQSq9afPAZWvEDM-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Update la direction du joueur (back)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Modification des coordonnees du player en fonction de la direction et de la vitesse (back)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-24" parent="HrtrLWQSq9afPAZWvEDM-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Animation de déplacements&lt;/font&gt;&amp;nbsp;(front)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-25" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;LVL UP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="350" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-26" parent="HrtrLWQSq9afPAZWvEDM-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Détecter le lvl up&lt;/font&gt;&amp;nbsp;(back)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-27" parent="HrtrLWQSq9afPAZWvEDM-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Modification des stats du player&lt;/font&gt;&amp;nbsp;(back)" vertex="1">
+          <mxGeometry height="50" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-28" parent="HrtrLWQSq9afPAZWvEDM-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Animation de LVL UP&lt;/font&gt;&amp;nbsp; (front)" vertex="1">
+          <mxGeometry height="50" width="350" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-33" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;La hitbox&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="350" x="50" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-34" parent="HrtrLWQSq9afPAZWvEDM-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Définir la zone de dégâts (back)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-35" parent="HrtrLWQSq9afPAZWvEDM-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Détection de joueur(s) dans la zone de dégâts (back)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-92" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Les attaques&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="370" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-93" parent="HrtrLWQSq9afPAZWvEDM-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Détection de la touche d&#39;attaque&amp;nbsp;(front)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-94" parent="HrtrLWQSq9afPAZWvEDM-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Procédure de détection de joueur (hitboxs) (back)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-95" parent="HrtrLWQSq9afPAZWvEDM-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Appliquer les dégâts (back)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Animer l&#39;attaque (front)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-100" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;L&#39;affichage des players&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="350" x="470" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-101" parent="HrtrLWQSq9afPAZWvEDM-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Affichage du pseudo et du niveau&lt;/font&gt;&amp;nbsp;(front)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-102" parent="HrtrLWQSq9afPAZWvEDM-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Affichage des HP&lt;/font&gt;&amp;nbsp;(front)" vertex="1">
+          <mxGeometry height="30" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-103" parent="HrtrLWQSq9afPAZWvEDM-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Affichage du cooldown d&#39;attaque&lt;/font&gt;&amp;nbsp;(front)" vertex="1">
+          <mxGeometry height="30" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-104" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Le spawn&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="350" x="50" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-105" parent="HrtrLWQSq9afPAZWvEDM-104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Attribuer des coordonnées aléatoires au player (back)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-106" parent="HrtrLWQSq9afPAZWvEDM-104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Définir une direction de départ&amp;nbsp;(back)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-107" parent="HrtrLWQSq9afPAZWvEDM-104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Countdown avant le début de game et après le spawn (back &amp;amp; front)" vertex="1">
+          <mxGeometry height="30" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-108" parent="HrtrLWQSq9afPAZWvEDM-18" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;La mort&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="350" x="480" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-109" parent="HrtrLWQSq9afPAZWvEDM-108" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Animation&lt;/div&gt;&amp;nbsp;(front)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-110" parent="HrtrLWQSq9afPAZWvEDM-108" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Retirer le player (back)" vertex="1">
+          <mxGeometry height="30" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-111" parent="HrtrLWQSq9afPAZWvEDM-108" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Changer son statut en tant que mort dans le classement (front)&lt;/div&gt;&lt;div&gt;Passer en mode spectateur (back &amp;amp; front)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-37" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=80;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;PAGES&lt;/font&gt;" vertex="1">
+          <mxGeometry height="580" width="1520" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-1" parent="HrtrLWQSq9afPAZWvEDM-37" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Map" vertex="1">
+          <mxGeometry height="300" width="300" x="1090" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-3" parent="HrtrLWQSq9afPAZWvEDM-37" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Kaaris&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="15" x="1300" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-5" parent="HrtrLWQSq9afPAZWvEDM-37" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Booba" vertex="1">
+          <mxGeometry height="30" width="15" x="1130" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-38" parent="HrtrLWQSq9afPAZWvEDM-37" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Game&lt;/font&gt;" vertex="1">
+          <mxGeometry height="390" width="410" x="1060" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-39" parent="HrtrLWQSq9afPAZWvEDM-37" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Lobby&lt;/font&gt;" vertex="1">
+          <mxGeometry height="390" width="410" x="550" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-55" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="320" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-56" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Player 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-57" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Player2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-58" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Booba&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-59" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Kaaris&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-60" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Player3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-61" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Player4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="60" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-62" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-72" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-73" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-74" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-75" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-76" parent="HrtrLWQSq9afPAZWvEDM-39" style="rounded=1;whiteSpace=wrap;html=1;" value="Skin" vertex="1">
+          <mxGeometry height="30" width="40" x="320" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-40" parent="HrtrLWQSq9afPAZWvEDM-37" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Portail&lt;/font&gt;" vertex="1">
+          <mxGeometry height="390" width="410" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-43" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Pseudo&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="65" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-44" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;SpriteA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="65" x="82.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-45" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;SpriteB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="65" x="172.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-46" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SpriteC&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="65" x="262.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-47" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="7.5" x="111.88" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-48" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="7.5" x="201.88" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-49" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="7.5" x="291.88" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-50" edge="1" parent="HrtrLWQSq9afPAZWvEDM-40" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110.63" y="300" as="sourcePoint" />
+            <mxPoint x="120.63" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-51" edge="1" parent="HrtrLWQSq9afPAZWvEDM-40" source="HrtrLWQSq9afPAZWvEDM-47" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180.63" y="340" as="sourcePoint" />
+            <mxPoint x="120.63" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-52" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Lien backend" vertex="1">
+          <mxGeometry height="30" width="280" x="65.63" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-53" parent="HrtrLWQSq9afPAZWvEDM-40" style="rounded=1;whiteSpace=wrap;html=1;" value="Join" vertex="1">
+          <mxGeometry height="40" width="80" x="165" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-41" edge="1" parent="HrtrLWQSq9afPAZWvEDM-37" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="324.17" as="sourcePoint" />
+            <mxPoint x="530" y="324.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-42" edge="1" parent="HrtrLWQSq9afPAZWvEDM-37" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="324.6600000000001" as="sourcePoint" />
+            <mxPoint x="1050" y="324.6600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-77" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;TODO FRONTEND&lt;/font&gt;" vertex="1">
+          <mxGeometry height="670" width="880" x="2490" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-112" parent="HrtrLWQSq9afPAZWvEDM-77" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Text&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-91" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;TODO BACKEND&lt;/font&gt;" vertex="1">
+          <mxGeometry height="670" width="880" x="2490" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-113" parent="HrtrLWQSq9afPAZWvEDM-91" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Text&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-96" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=17;" value="&lt;font&gt;L&#39;affichage de la map&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="350" x="1630" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-97" parent="HrtrLWQSq9afPAZWvEDM-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Définir la taille de la map (canvas) (front)" vertex="1">
+          <mxGeometry height="30" width="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-98" parent="HrtrLWQSq9afPAZWvEDM-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Tempête (back &amp;amp; front)" vertex="1">
+          <mxGeometry height="30" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrtrLWQSq9afPAZWvEDM-99" parent="HrtrLWQSq9afPAZWvEDM-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Background (front)" vertex="1">
+          <mxGeometry height="30" width="350" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
