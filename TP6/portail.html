@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Arena - Portail</title>
+    <link rel="stylesheet" href="portail.css">
+</head>
+<body>
+    <div class="portal-container">
+        <h1>JS ARENA</h1>
+        
+        <div class="setup-box">
+            <label>NOM DU JOUEUR</label>
+            <input type="text" id="username" placeholder="Pseudo...">
+
+            <label>URL DU SERVEUR</label>
+            <input type="text" id="server-url" placeholder="http://localhost:3000">
+            
+            <label>CHOISIR UN SKIN</label>
+            <div id="skin-container" class="skin-grid"></div>
+
+            <p id="error-message" class="error"></p>
+            
+            <button id="start-btn">REJOINDRE LE JEU</button>
+        </div>
+    </div>
+    <script src="portail.js"></script>
+</body>
+</html>
