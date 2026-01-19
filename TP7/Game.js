@@ -95,7 +95,7 @@ myGame.update(backendData);
 console.log("HP 'blabla'  :", myGame.players["3cd71bbb-6a6b-4d4e-80e3-107130328a27"].hp);
 console.log("Pos 'blabla' :", myGame.players["3cd71bbb-6a6b-4d4e-80e3-107130328a27"].renderX, myGame.players["3cd71bbb-6a6b-4d4e-80e3-107130328a27"].renderY);
 
-console.log(" TEST 3 ");
+console.log("TEST 3 ");
 // On simule la déconnexion 
 delete backendData.players["28ead291-fcea-4b41-a596-d3c876c49a53"];
 myGame.update(backendData);
