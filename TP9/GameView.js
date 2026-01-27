@@ -3,8 +3,8 @@ class GameView {
         this.game = game;
         this.canvas = document.getElementById("canvas");
 
-        this.canvas.width = 600;
-        this.canvas.height = 600;
+        this.canvas.width = 1000;
+        this.canvas.height = 800;
 
         this.width = this.canvas.width;
         this.height = this.canvas.height;
@@ -28,8 +28,8 @@ class GameView {
 
         // Dégradé bleu foncé
         const gradient = ctx.createLinearGradient(0, 0, 0, this.height);
-        gradient.addColorStop(0, "#1e1e2f");
-        gradient.addColorStop(1, "#0f0f1a");
+        gradient.addColorStop(0, "#a926b3ff");
+        gradient.addColorStop(1, "#3d0c5aff");
 
         ctx.fillStyle = gradient;
         ctx.fillRect(0, 0, this.width, this.height);
@@ -169,27 +169,25 @@ class GameView {
 
     // Dessine le nom, niveau et barres de vie
     drawHUD(player, x, y) {
-        const barWidth = 60;
-        const barHeight = 6;
+        const barWidth = 50;  
+        const barHeight = 4; 
         const offsetY = -40;
 
         // Nom et niveau du joueur
         this.ctx.fillStyle = "#ffffff";
-        this.ctx.font = "bold 12px Arial";
+        this.ctx.font = "bold 10px Arial"; 
         this.ctx.textAlign = "center";
-        this.ctx.fillText(`${player.name} (Lv${player.lvl})`, x, y + offsetY - 15);
+        this.ctx.fillText(`${player.name} (Lv${player.lvl})`, x, y + offsetY - 12);
 
         // Barre de vie
-        const hpPercent = player.hp / player.maxHp;
+        const hpPercent = Math.max(0, Math.min(1, player.hp / player.maxHp)); 
 
         // Fond noir
         this.ctx.fillStyle = "#000000";
         this.ctx.fillRect(x - barWidth / 2, y + offsetY, barWidth, barHeight);
 
-        // Barre verte selon les HP
-        if (hpPercent > 0.5) {
-            this.ctx.fillStyle = "#00ff00";
-        }
+        // Barre de vie
+        this.ctx.fillStyle = "#00ff00";
         this.ctx.fillRect(x - barWidth / 2, y + offsetY, barWidth * hpPercent, barHeight);
 
         // Contour blanc
@@ -199,19 +197,19 @@ class GameView {
 
         // Barre de cooldown d'attaque
         if (player.attackCooldown && player.currentAttackCooldown !== undefined) {
-            const cdPercent = 1 - (player.currentAttackCooldown / player.attackCooldown);
+            const cdPercent = Math.max(0, Math.min(1, 1 - (player.currentAttackCooldown / player.attackCooldown)));
 
             // Fond noir
             this.ctx.fillStyle = "#000000";
-            this.ctx.fillRect(x - barWidth / 2, y + offsetY + 8, barWidth, barHeight);
+            this.ctx.fillRect(x - barWidth / 2, y + offsetY + 6, barWidth, barHeight);
 
             // Barre violette de cooldown
             this.ctx.fillStyle = "#bc13fe";
-            this.ctx.fillRect(x - barWidth / 2, y + offsetY + 8, barWidth * cdPercent, barHeight);
+            this.ctx.fillRect(x - barWidth / 2, y + offsetY + 6, barWidth * cdPercent, barHeight);
 
             // Contour blanc
             this.ctx.strokeStyle = "#ffffff";
-            this.ctx.strokeRect(x - barWidth / 2, y + offsetY + 8, barWidth, barHeight);
+            this.ctx.strokeRect(x - barWidth / 2, y + offsetY + 6, barWidth, barHeight);
         }
     }
 }
