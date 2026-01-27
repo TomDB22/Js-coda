@@ -8,11 +8,13 @@ class GameController {
         requestAnimationFrame(this.loop);
 
         this.game = new Game();
+        this.view = new GameView(this.game);
+        this.lastServerUpdate = Date.now(); // PARTIE 4
 
         // Récupération des données du Portail
-        this.name = localStorage.getItem("playerPseudo") || "Inconnu";
-        this.serverUrl = localStorage.getItem("playerServerUrl") || "ws://localhost:8000/ws";
-        this.spritePath = localStorage.getItem("skinPath") || "../assets/1.png";
+        this.name = localStorage.getItem("pseudo") || "Inconnu";
+        this.serverUrl = localStorage.getItem("serverUrl") || "ws://localhost:8000/ws";
+        this.spritePath = localStorage.getItem("skinPath") || "./assets/1.png";
 
         //État initial des touches
         this.inputState = {
@@ -52,7 +54,8 @@ class GameController {
             const gameStateFromServer = JSON.parse(event.data); 
             
             // Mise à jour silencieuse du modèle
-            this.game.update(gameStateFromServer); 
+            this.game.update(gameStateFromServer);
+            this.lastServerUpdate = Date.now(); // PARTIE 4
             
             // Log occasionnel pour vérifier la réception
             if (Math.random() < 0.01) { 
@@ -62,7 +65,7 @@ class GameController {
 
         this.socket.onerror = (error) => console.error(" Erreur WebSocket", error);
         this.socket.onclose = () => console.warn(" Connexion fermée");
-    };
+    }
 
  
     initInput() {
@@ -76,7 +79,7 @@ class GameController {
                 case "KeyE": this.inputState.attack = true; break;
                 default: keyChanged = false;
             }
-            if (keyChanged) console.log(" Touche pressée ->", event.code, "| State:", this.inputState); //
+            if (keyChanged) console.log(" Touche pressée ->", event.code, "| State:", this.inputState);
         });
 
         window.addEventListener("keyup", (event) => {
@@ -87,36 +90,42 @@ class GameController {
                 case "KeyD": this.inputState.right = false; break;
                 case "KeyE": this.inputState.attack = false; break;
             }
-            console.log(" Touche relâchée ->", event.code); //
+            console.log(" Touche relâchée ->", event.code);
         });
     }
 
     //Envoi régulier
     startInputSender() {
         setInterval(() => {
-            if (this.socket.readyState === WebSocket.OPEN) { //
+            if (this.socket.readyState === WebSocket.OPEN) {
                 const message = {
                     type: "input",
                     input: this.inputState
                 };
-                this.socket.send(JSON.stringify(message)); //
+                this.socket.send(JSON.stringify(message));
             }
         }, this.SERVER_INTERVAL);
-        console.log(" Boucle d'envoi activée à", this.SERVER_TICK_RATE, "Hz"); //
+        console.log(" Boucle d'envoi activée à", this.SERVER_TICK_RATE, "Hz");
     }
 
-    // Boucle de Rendu 
+    // PARTIE 4 : Boucle de Rendu avec interpolation
     loop(timestamp) {
-        requestAnimationFrame(this.loop); //
+        requestAnimationFrame(this.loop);
 
-        const players = Object.values(this.game.players);
-        const me = players.find(p => p.name === this.name);
-        
-        if (me && (this.inputState.up || this.inputState.down || this.inputState.left || this.inputState.right)) {
-            
-            console.log(`Mouvement détecté par le serveur -> X: ${me.x.toFixed(2)} Y: ${me.y.toFixed(2)}`);
+        // Calcul d'alpha pour l'interpolation
+        const timeSinceUpdate = Date.now() - this.lastServerUpdate;
+        const alpha = Math.min(timeSinceUpdate / this.SERVER_INTERVAL, 1);
+
+        // Interpoler tous les joueurs
+        for (let id in this.game.players) {
+            this.game.players[id].interpolate(alpha);
         }
+
+        // Rendu
+        this.view.render();
     }
 }
 
 new GameController();
+
+//
