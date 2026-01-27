@@ -1,0 +1,123 @@
+body {
+    /* Image de fond avec filtre violet */
+    background: linear-gradient(rgba(100, 0, 255, 0.5), rgba(40, 0, 80, 0.7)), 
+                url('https://media.istockphoto.com/id/1346709154/fr/photo/champ-de-bataille-%C3%A9pique-deux-chevaliers-m%C3%A9di%C3%A9vaux-blind%C3%A9s-se-battant-avec-des-%C3%A9p%C3%A9es-guerre.jpg?s=612x612&w=0&k=20&c=iOmahgiontXCHE0TwDV7jFFuuwcK8W1jS332zOgYqiM=') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0aaff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* CARRE PRINCIPAL PLUS PETIT */
+.portal-container {
+    background: rgba(15, 0, 30, 0.92);
+    padding: 20px 30px; /* Réduction du padding interne */
+    border-radius: 20px;
+    border: 3px solid #bc13fe;
+    box-shadow: 0 0 20px #bc13fe;
+    text-align: center;
+    width: 500px; /* Largeur réduite pour un aspect plus compact */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem; /* Titre plus petit */
+    color: #fff;
+    text-shadow: 0 0 10px #bc13fe;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.setup-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 0.75rem; /* Labels plus discrets */
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    background: #1a0533;
+    border: 2px solid #bc13fe;
+    padding: 8px 12px; /* Inputs plus fins */
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+/* Grille de sélection des skins (4 par ligne) */
+#skin-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 8px; /* Espacement réduit entre les skins */
+    max-height: 200px; /* Zone de scroll plus petite */
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.skin-item {
+    aspect-ratio: 1 / 1;
+    border: 2px solid rgba(188, 19, 254, 0.3);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    transition: 0.2s;
+}
+
+.skin-item canvas {
+    width: 85%;
+    height: auto;
+    image-rendering: pixelated; /* Pour garder le style pixel art net */
+}
+
+.skin-item.selected {
+    border-color: #bc13fe;
+    background: rgba(188, 19, 254, 0.4);
+    box-shadow: 0 0 10px #bc13fe;
+}
+
+#error-message {
+    color: #ff4444;
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+    text-align: center;
+    min-height: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Bouton plus compact */
+    background: #bc13fe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #bc13fe;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff;
+    color: #bc13fe;
+    box-shadow: 0 0 15px #fff;
+}
