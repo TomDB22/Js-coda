@@ -5,7 +5,7 @@ const directions = {
     west: 3, //1
 }
 
-class Player {
+export default class Player {
     constructor(id, name, skinPath, position) {
         // Unique identifier attributed by the server
         this.id = id;
@@ -14,7 +14,7 @@ class Player {
         // Path to the spritesheet used to represent the player (idem)
         this.skinPath = skinPath;
 
-        // --- RENDER positions (PARTIE 4) ---
+        // RENDER positions
         this.x = position[0];
         this.y = position[1];
         this.prevX = position[0];
@@ -22,20 +22,20 @@ class Player {
         this.renderX = position[0];
         this.renderY = position[1];
 
-        // --- Stats ---
+        // Stats 
         this.lvl = 1;
         this.hp = 100;
         this.maxHp = 100;
         this.speed = 0.2;
 
-        // --- Direction & states ---
+        // Direction et states 
         this.direction = directions.south;
         this.isWalking = false;
         this.isAttacking = false;
         this.isDying = false;
         this.isDead = false;
 
-        // --- Animations (remains non affected by server updates, only concernes frontend logic) ---
+        //  Animations (remains non affected by server updates, only concernes frontend logic) 
         this.walkSpriteIndex = 0;
         this.walkSpritesNumber = 9;
         this.currentWalkSpriteStep = 0;
@@ -53,7 +53,7 @@ class Player {
     }
 
     update(updateData) {
-        // PARTIE 4 : Sauvegarder la position actuelle comme précédente
+        // Sauvegarder la position actuelle comme précédente
         this.prevX = this.x;
         this.prevY = this.y;
 
@@ -144,7 +144,7 @@ class Player {
         }
     }
 
-    // PARTIE 4 : Méthode d'interpolation
+    // Méthode d'interpolation
     interpolate(alpha) {
         this.renderX = this.prevX + (this.x - this.prevX) * alpha;
         this.renderY = this.prevY + (this.y - this.prevY) * alpha;

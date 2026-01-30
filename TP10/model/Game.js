@@ -1,4 +1,7 @@
-class Game {
+import Player from "./Player.js"
+
+export default class Game {
+
     constructor() {
         this.isRunning = false;
         this.isOver = false;
@@ -43,3 +46,7 @@ class Game {
         }
     }
 }
+
+
+
+

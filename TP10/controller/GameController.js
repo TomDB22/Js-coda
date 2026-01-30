@@ -1,5 +1,5 @@
-class GameController {
-    constructor() {
+export default class GameController {
+    constructor(game, gameView) {
         //CONFIGURATION
         this.SERVER_TICK_RATE = 20; 
         this.SERVER_INTERVAL = 1000 / this.SERVER_TICK_RATE; 
@@ -7,9 +7,9 @@ class GameController {
         this.loop = this.loop.bind(this);
         requestAnimationFrame(this.loop);
 
-        this.game = new Game();
-        this.view = new GameView(this.game);
-        this.lastServerUpdate = Date.now(); // PARTIE 4
+        this.game = game;
+        this.view = gameView;
+        this.lastServerUpdate = Date.now(); 
 
         // Récupération des données du Portail
         this.name = localStorage.getItem("pseudo") || "Inconnu";
@@ -76,7 +76,7 @@ class GameController {
                 case "KeyS": this.inputState.down = true; break;
                 case "KeyA": this.inputState.left = true; break;
                 case "KeyD": this.inputState.right = true; break;
-                case "KeyE": this.inputState.attack = true; break;
+                case "KeyM": this.inputState.attack = true; break;
                 default: keyChanged = false;
             }
             if (keyChanged) console.log(" Touche pressée ->", event.code, "| State:", this.inputState);
@@ -88,13 +88,13 @@ class GameController {
                 case "KeyS": this.inputState.down = false; break;
                 case "KeyA": this.inputState.left = false; break;
                 case "KeyD": this.inputState.right = false; break;
-                case "KeyE": this.inputState.attack = false; break;
+                case "KeyM": this.inputState.attack = false; break;
             }
             console.log(" Touche relâchée ->", event.code);
         });
     }
 
-    //Envoi régulier
+    //Envoi 
     startInputSender() {
         setInterval(() => {
             if (this.socket.readyState === WebSocket.OPEN) {
@@ -108,7 +108,6 @@ class GameController {
         console.log(" Boucle d'envoi activée à", this.SERVER_TICK_RATE, "Hz");
     }
 
-    // PARTIE 4 : Boucle de Rendu avec interpolation
     loop(timestamp) {
         requestAnimationFrame(this.loop);
 
@@ -121,9 +120,6 @@ class GameController {
             this.game.players[id].interpolate(alpha);
         }
 
-        // Rendu
         this.view.render();
     }
 }
-
-new GameController();
